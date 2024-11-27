@@ -142,9 +142,7 @@ document.querySelector("#login-form").addEventListener("submit", (event) => {
   }
 });
 
-function redirectToContent() {
-  location.href = 'content.html';
-}
+
 
 // Show login form
 function showLogin() {
