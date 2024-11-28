@@ -17,7 +17,7 @@
 
         body {
            font-family: Arial,  sans-serif;
-           background-color: darksalmon;
+           background-color: maroon;
            
         }
 
@@ -44,7 +44,7 @@
          border: 1px solid #ccc;
          border-radius: 5px;
          color: white;
-         background-color: white;
+         background-color: black;
 
         }
 
