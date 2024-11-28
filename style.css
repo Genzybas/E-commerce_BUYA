@@ -1,0 +1,106 @@
+.hidden { display: none; }
+        
+        
+
+
+
+        .container {
+            width: 300px;
+            height: 500px;
+            margin: auto;
+            border-radius: 25px;
+            padding: 20px;
+
+            
+            
+        }
+
+        body {
+           font-family: Arial,  sans-serif;
+           background-color: darksalmon;
+           
+        }
+
+        form {
+           width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+        } 
+
+        label {
+           display: block;
+           margin: 10px 0 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="password"] {
+         width: 94.5%;
+         padding: 10px;
+         margin: 5px 0;
+         border: 1px solid #ccc;
+         border-radius: 5px;
+         color: white;
+         background-color: white;
+
+        }
+
+        input[type="submit"] {
+            padding: 10px;
+            
+        }
+        
+        input[type="submit"]:hover {
+          background-color: blue;
+        }
+
+        h2 {
+            justify-content: center;
+        }
+
+
+
+
+        .toggle-password {
+         position: absolute;
+         right: 35px;
+         top: 50%;
+         transform: translateY(-50%);
+         cursor: pointer;
+        }
+
+        .password-container {
+          position: relative;
+        } 
+        
+        
+        .close {
+         color: #aaa;
+         float: right;
+         font-size: 28px;
+         font-weight: bold;
+        }
+
+        .close:hover,
+         .close:focus {
+         color: black;
+         text-decoration: none;
+        cursor: pointer;
+        }
+
+        input[type="submit"] {
+          width: 100%;
+          padding: 10px;
+          background-color: black;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+           background-color: white;
+        }
