@@ -18,12 +18,12 @@ document.getElementById('signupForm').onsubmit = function(event) {
     event.preventDefault();
     alert('Sign up successful! Redirecting to the dashboard...');
     // Redirect to the dashboard (mock)
-    window.location.href = 'content.html';
+    window.location.href = 'contentDetails.html';
 };
 
 document.getElementById('loginForm').onsubmit = function(event) {
     event.preventDefault();
     alert('Login successful! Redirecting to the dashboard...');
     // Redirect to the dashboard (mock)
-    window.location.href = 'content.html';
+    window.location.href = 'contentDetails.html';
 };
