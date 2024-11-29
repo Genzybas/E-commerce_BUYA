@@ -62,10 +62,7 @@
             
         }
         
-        input[type="submit"]:hover {
-          background-color: black;
-        }
-
+        
         h2 {
             justify-content: center;
         }
@@ -103,8 +100,8 @@
         input[type="submit"] {
           width: 100%;
           padding: 10px;
-          background-color: white;
-          color: black;
+          background-color: black;
+          color: white;
           border: none;
           border-radius: 5px;
           cursor: pointer;
